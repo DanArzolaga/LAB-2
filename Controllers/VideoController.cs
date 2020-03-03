@@ -41,7 +41,7 @@ namespace MVCLaboratorio.Controllers
             parametros.Add(new SqlParameter("@url", url));
 
             
-            BaseHelper.ejecutarSentencia("sp_video_insertar)", CommandType.StoredProcedure, parametros);
+            BaseHelper.ejecutarSentencia("sp_video_insertar", CommandType.StoredProcedure, parametros);
 
             return RedirectToAction("Index", "Video");
 
@@ -60,7 +60,7 @@ namespace MVCLaboratorio.Controllers
             List<SqlParameter> parametros = new List<SqlParameter>();
             parametros.Add(new SqlParameter("@idVideo", idVideo));
 
-            BaseHelper.ejecutarSentencia("DELETE FROM VIDEO WHERE idVideo=@idVideo)", CommandType.Text, parametros);
+            BaseHelper.ejecutarSentencia("DELETE FROM VIDEO WHERE idVideo=@idVideo", CommandType.Text, parametros);
 
             return View();
         }
@@ -85,7 +85,7 @@ namespace MVCLaboratorio.Controllers
 
       
             BaseHelper.ejecutarSentencia("UPDATE FROM VIDEO" +
-                "idVideo=@idVideo, titulo=@titulo, repro=@repro, url=@url)", CommandType.Text, parametros);
+                "idVideo=@idVideo, titulo=@titulo, repro=@repro, url=@url", CommandType.Text, parametros);
 
             return View();
         }

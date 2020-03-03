@@ -16,17 +16,17 @@
     <form action="/Video/Create" method="post">
     <fieldset>
     <legend>Datos del video</legend>
-        <Label for="idVideo">ID Video</Label> />
+        <Label for="idVideo">ID Video</Label>
         <input type="text" name="idVideo"  />
 
-           <Label for="titulo">Titulo</Label> />
-        <input type="text" name="titulo"  />
+           <Label for="titulo">Titulo</Label>
+        <input type="text" name="titulo"/>
 
-           <Label for="repro">Reproducciones</Label> />
-        <input type="text" name="repro"  />
+           <Label for="repro">Reproducciones</Label>
+        <input type="text" name="repro"/>
 
-           <Label for="url">URL</Label> />
-        <input type="text" name="url"  />
+           <Label for="url">URL</Label>
+        <input type="text" name="url"/>
 
         <input type="Submit" name="Registrar"  />
 
