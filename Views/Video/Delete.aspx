@@ -4,31 +4,22 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
- <meta charset="UTF-8">
+    <title>Eliminar video</title>
+    <meta charset="UTF-8">
   <meta name="description" content="CRUD Video ASP.NET MVC 2.0">
   <meta name="keywords" content="ASP.NET, MVC, FACPYA">
   <meta name="author" content="Daniela Arzola">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../../Content/Site.css" rel="stylesheet" type="text/css" />
-    <title>Registrar Video</title>
 </head>
 <body>
-    <form action="/Video/Create" method="post">
+ <form action="/Video/Delete" method="post">
     <fieldset>
-    <legend>Datos del video</legend>
+    <legend>ID del video</legend>
         <Label for="idVideo">ID Video</Label>
         <input type="text" name="idVideo"  />
 
-           <Label for="titulo">Titulo</Label>
-        <input type="text" name="titulo"/>
-
-           <Label for="repro">Reproducciones</Label>
-        <input type="text" name="repro"/>
-
-           <Label for="url">URL</Label>
-        <input type="text" name="url"/>
-
-        <input type="submit" value="Registrar"  />
+        <input type="submit" value="Eliminar"  />
 
     </fieldset>
     </form>

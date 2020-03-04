@@ -5,9 +5,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
     <title>Pagina Principal</title>
+     <meta name="description" content="CRUD Video ASP.NET MVC 2.0">
+  <meta name="keywords" content="ASP.NET, MVC, FACPYA">
+  <meta name="author" content="Daniela Arzola">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../Content/Site.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <h1>MENU DE OPCIONES</h1>
+   
+        <h1>¡Bienvenidos a mi pagina web!</h1>
     <br />
     <a href="/Video/Create">Agregar Video</a>
     <br />
